@@ -5,6 +5,14 @@ The script for water rendering in Unity can effectively work around the limitati
 
 **The water unity package asset in this repo can be directly imported to our code base and be used in our game**
 
+### Summary of my previous efforts:
+
+**Dual Shader Strategy:** Attempted a two-shader solution (opaque and transparent) for water rendering. Faced challenges with shaders either displaying errors ('neon pink') or lacking reflections. Also, material switching based on camera distance seemed to be incompatible with my best efforts.
+
+**Joshua Lim's SSR Approach:** Explored integrating SSR directly into surface shaders, following Joshua Lim's advice and the technique used in 'Doom Eternal'. Aimed to enable reflections on transparent objects and forward shading pipelines by executing SSR at the object level. This complex approach required substantial rework and, unfortunately, did not succeed.
+
+**Shader Graph Translation:** Tried converting Eyad’s SSR Shader Graph to code for direct implementation. Encountered persistent issues ('neon pink' errors), indicating compatibility challenges.
+
 ### Result: 
 ![](https://github.com/uluyek/SSR-Water/blob/main/Demo%20Result.png)
 
