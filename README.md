@@ -425,6 +425,12 @@ namespace UnityStandardAssets.Water
 ### Set Up Guide:
 ![](https://github.com/uluyek/SSR-Water/blob/main/Water%20with%20reflection.png)
 
+**Mesh:** The mesh of water surface
+**Probes:** Set light probes to blend probes
+**Water Script:** Add component: water script
+**Water Mode:** Refractive
+**Texture Size:** Any power of 2. I set it to 256. The bigger the more clear the reflection is, therefore more expensive.
+**Shader:** FX/Water
 
 ### Failed Attempt on Shaders: 
 
