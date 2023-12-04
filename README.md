@@ -1,6 +1,8 @@
 # SSR-Water
 
+### Attempt on Shaders: 
 
+I made several attempts on Opaque shaders that eveutally fail to show up. This is one of the attempts. Eyad's shader graph worked well, but we can't use shadergraph in the actual game. 
 ```csharp
 Shader "Custom/Water_Opaque"
 {
