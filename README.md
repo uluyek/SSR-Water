@@ -422,10 +422,14 @@ namespace UnityStandardAssets.Water
     }
 }
 ```
+### Set Up Guide:
+![](https://github.com/uluyek/SSR-Water/blob/main/Water%20with%20reflection.png)
 
-### Attempt on Shaders: 
 
-I made several attempts on Opaque shaders that eveutally fail to show up. This is one of the attempts. Eyad's shader graph worked well, but we can't use shadergraph in the actual game. 
+### Failed Attempt on Shaders: 
+
+I've made numerous attempts to implement opaque shaders, but unfortunately, they failed to function correctly. Below, I've detailed one of these attempts for reference. Additionally, while Eyad's shader graph showed promising results, we're unable to integrate shader graph solutions into our actual game due to compatibility issues.
+
 ```csharp
 Shader "Custom/Water_Opaque"
 {
