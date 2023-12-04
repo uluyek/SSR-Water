@@ -1,6 +1,6 @@
 # SSR-Water
 
-'''csharp
+```csharp
 Shader "Custom/Water_Opaque"
 {
     Properties
@@ -68,5 +68,4 @@ Shader "Custom/Water_Opaque"
     FallBack "Diffuse"
 }
 
-
-'''
+```
