@@ -3,6 +3,8 @@
 ### Final Work Around:
 The script for water rendering in Unity can effectively work around the limitations of Screen Space Reflections (SSR) by generating its own reflection and refraction textures using separate cameras. SSR typically struggles with transparent surfaces like water because it relies on depth information from what is visible on screen, and transparent surfaces don't write to the depth buffer in the same way as opaque objects. By creating dedicated reflection and refraction textures, the script captures accurate reflections and refractions that SSR might miss, especially for off-screen objects or those at complex angles. This approach enhances the realism of water surfaces in the rendered scene, offering a solution to some of the inherent limitations of SSR with transparent materials. However, this method can be more performance-intensive due to the additional rendering of separate cameras for the water's reflections and refractions.
 
+**The water asset in this repo can be directly imported to our code base and be used in our game**
+
 ### Result: 
 ![](https://github.com/uluyek/SSR-Water/blob/main/Demo%20Result.png)
 
